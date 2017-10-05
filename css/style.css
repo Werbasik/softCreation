@@ -1,0 +1,322 @@
+body {
+    color: #777777;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar-default {
+    background-color: #0ed8d6;
+    border-bottom: 1px solid transparent;
+}
+
+.navbar-default.scrolled {
+    background: transparent;
+    transition: all 250ms ease-in;
+}
+
+.navbar-default a.navbar-brand {
+    font-family: 'Droid Serif', serif;
+    color: white;
+    font-size: 25px;
+}
+
+.navbar-default ul li a:link {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.4s;
+}
+
+.navbar-default ul li a:visited {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+
+section#slider .item div.slider-image{
+ background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+}
+
+section#slider .item div.slider-image#slider_img_1{
+background-image: url(../img/slider/slider1.jpg);
+}
+section#slider .item div.slider-image#slider_img_2{
+background-image: url(../img/slider/slider2.jpg);
+}
+section#slider .item div.slider-image#slider_img_3{
+background-image: url(../img/slider/slider5.jpg);
+}
+section#slider .item div.slider-image#slider_img_4{
+background-image: url(../img/slider/slider6.jpg);
+}
+
+
+
+
+
+
+
+/*headings, subheadings*/
+
+.row.text-center.heading {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    color: #333333;
+    font-weight: 900;
+    margin-top: 100px;
+}
+
+.row.text-center.subheading {
+    font-family: 'Droid Serif';
+}
+
+
+/* end of headings, subheadings*/
+
+
+
+#portfolio {
+    background-color: #f7f7f7;
+}
+
+#portfolio .single-portfolio-item {
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+#portfolio .container .row h1 {
+    font-weight: 150;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#portfolio .container .row h2 {
+    font-family: 'RobotoSlab';
+    font-style: italic;
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+}
+
+#portfolio .portfolio-image-container {
+    height: 300px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+#portfolio #portfolio-item-1 {
+    background-image: url("../img/gallery/gallery1.jpg");
+}
+
+#portfolio #portfolio-item-2 {
+    background-image: url("../img/gallery/gallery2.jpg");
+  
+}
+
+#portfolio #portfolio-item-3 {
+    background-image: url("../img/gallery/gallery3.jpg");
+}
+
+#portfolio #portfolio-item-4 {
+    background-image: url("../img/gallery/gallery4.jpg");
+}
+
+#portfolio #portfolio-item-5 {
+    background-image: url("../img/gallery/gallery5.jpg");
+}
+
+#portfolio #portfolio-item-6 {
+    background-image: url("../img/gallery/gallery6.jpg");
+}
+
+#portfolio .portfolio-image {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.4s;
+}
+
+#portfolio .portfolio-image:hover {
+    transform: scale(1.2);
+}
+
+#portfolio .portfolio-item-mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 216, 214, 0.7);
+    opacity: 0;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+#portfolio .portfolio-item-mask:hover {
+    opacity: 1;
+}
+
+#portfolio .single-portfolio-item .portfolio-image-container .portfolio-image i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+#team .row:nth-child(3) {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+#team .teamimage {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#team #erick {
+    background-image: url(../img/team/anna.jpg);
+    
+}
+
+#team #martin {
+    background-image: url(../img/team/man-2.jpg);
+}
+
+#team #anna {
+    background-image: url(../img/team/woman-1.jpg);
+}
+
+#team h5 {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#team p {
+    text-align: center;
+}
+
+#team .icon-social {
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: all 0.4s;
+}
+
+#team .icon-social:hover {
+    background-color: #0ed8d6;
+}
+
+#team .row:last-child {
+    margin-bottom: 70px;
+}
+
+#contact {
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-image: url(../img/footer/world-map.jpg);
+    
+}
+
+#contact h2
+#contact p {
+    color: #ffffff;
+    font-family: 'RobotoSlab';
+    font-weight: 150;
+    
+    
+}
+
+#contact input:not([type="submit"]),
+#contact textarea {
+    width: 100%;
+    border: 2px solid #e0e0eb;
+}
+
+#contact input,
+#contact textarea {
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'Montserrat';
+    border-radius: 5px;
+}
+
+#contact input:not(:last-child) {
+    margin-bottom: 30px;
+}
+#contact input [type="submit"] {
+    margin-top: 30px;
+}
+
+/* all */
+::-webkit-input-placeholder { color:#777; }
+::-moz-placeholder { color:#777; } /* firefox 19+ */
+:-ms-input-placeholder { color:#777; } /* ie */
+input:-moz-placeholder { color:#777; }
+
+#terms {
+    font-family: 'Montserrat', sans-serif;
+    height: 100px;
+}
+
+#terms .container .row:first-child{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#terms .icon-social{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#terms .icon-social:hover{
+    background-color: #0ed8d6;
+}
+
+#terms .icon-social a:link{
+    color: white;
+}
+
+
+
+/*
+font-family: 'Droid Serif', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
