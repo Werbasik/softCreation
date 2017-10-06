@@ -19,3 +19,13 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function() {
+    $('#btn-offer').click(function() {  
+         $('#show').slideToggle('slow');  
+    });
+        
+    
+});
+
+
+
