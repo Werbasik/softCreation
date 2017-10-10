@@ -158,13 +158,15 @@
             var shapes = document.querySelectorAll('.st0');
             var letters = document.querySelectorAll('.st2');
             for (var i = 0; i < shapes.length; i++) {
-                shapes[i].style.fill = "#3A3A39";
+                shapes[i].style.fill = "white";
             }
 
             for (var i = 0; i < letters.length; i++) {
-                letters[i].style.fill = "#3A3A39";
+                letters[i].style.fill = "white";
             }
-            $('#mainLogoWrapper').delay(1000).fadeOut("slow");
+//            $('#mainLogoWrapper').delay(1000).fadeOut("slow");
+            $('#mainLogoWrapper').delay(1000).slideToggle("slow");
+             $('#svgAnimatedLogo').delay(1000).fadeOut("slow");
         });
 
     </script>

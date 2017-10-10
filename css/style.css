@@ -52,15 +52,12 @@ section#slider {
     position: relative;
 }
 
-
 section#slider .item div.slider-image {
     background-size: cover;
     background-position: center center;
     width: 100%;
     height: 100vh;
 }
-
-
 
 section#slider .item div.slider-image#slider_img_1 {
     background-image: url(../img/slider/slider1.jpg);
@@ -81,8 +78,6 @@ section#slider .item div.slider-image#slider_img_4 {
 
 /*SVG */
 
-
-
 .st0 {
     fill-rule: evenodd;
     clip-rule: evenodd;
@@ -92,7 +87,7 @@ section#slider .item div.slider-image#slider_img_4 {
 
 .st1 {
     fill: none;
-    stroke: #3A3A39;
+    stroke: white;
     stroke-width: 1.4173;
     stroke-miterlimit: 22.9256;
     stroke-linecap: round;
@@ -100,28 +95,25 @@ section#slider .item div.slider-image#slider_img_4 {
 
 .st2 {
     fill: transparent;
-    stroke: #3A3A39
+    stroke: white;
 }
 
 .svg-logo-wrapper {
     width: 100%;
     height: 100vh;
     position: absolute;
-    background: white;
-    
-  
+    background: #0ed8d6;
     z-index: 5000;
 }
 
 .svg-logo-wrapper svg {
-   position: absolute;
-    top: -1000px;
-/*    height: 100%;*/
-/*    left: 50%;*/
-/*    transform: translateX(-50%);*/
-   
-   
-
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-bottom: 100px;
 }
 
 
@@ -129,8 +121,6 @@ section#slider .item div.slider-image#slider_img_4 {
 
 
 /*END OF SVG*/
-
-
 
 .soft-creation-button {
     background-color: #0ed8d6;
