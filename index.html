@@ -5,11 +5,13 @@
     <meta charset="utf-8">
     <!-- Zapewnienie reagowania zawartości strony na różne wielkości ekranu -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <title>Soft Creation</title>
     <!-- Skompresowany Bootstrap CSS dodany lokalnie -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Montserrat|Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Montserrat:400|Roboto+Slab" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/logo/favicon.png"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/lightbox.min.css">
     <!-- Vivus - animacja svg -->
@@ -39,8 +41,12 @@
                     <li><a href="#portfolio">Galeria</a></li>
                     <li><a href="#team">O Nas</a></li>
                     <li><a href="#contact">Kontakt</a></li>
+                    <div class="language-selector-wrapper">
+              <a href="#en"><div class="language"><span>EN</span></div></a>  
+            </div>
                 </ul>
             </div>
+            
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
@@ -407,12 +413,10 @@
                     <p>Obsługa klienta</p>
 
                     <a href="https://www.instagram.com/softcreation">
-                        <div class="icon-social"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-                    </a>
+                        <div class="icon-social"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>
                     <a href="https://www.facebook.com/softicreation/">
                         <div class="icon-social">
-                            <i class="fa fa-facebook" aria-hidden="true"></i></div>
-                    </a>
+                            <i class="fa fa-facebook" aria-hidden="true"></i></div></a>
                 </div>
 
             </div>
@@ -430,12 +434,12 @@
             <div class="row">
                 <form action="https://formspree.io/softcreation@onet.pl" method="POST">
                     <div class="col-sm-6">
-                        <input name="userName" type="text" placeholder="Name">
-                        <input name="userEmail" type="text" placeholder="Your e-mail">
-                        <input name="userPhone" type="text" placeholder="Phone">
+                        <input name="userName" type="text" placeholder="Imię">
+                        <input name="userEmail" type="email" placeholder="Email*" required>
+                        <input name="userPhone" type="text" placeholder="Telefon">
                     </div>
                     <div class="col-sm-6">
-                        <textarea name="message" id="" cols="30" rows="9" placeholder="Message"></textarea>
+                        <textarea name="message" id="" cols="30" rows="9" placeholder="Wiadomość*" required></textarea>
                     </div>
                     <div class="col-sm-12 text-center">
                         <input type="submit" value="Wyślij" class="soft-creation-button">
