@@ -1,5 +1,16 @@
 {
   "gallery": "Galeria",
   "about": "O nas",
-  "contact": "Kontakt"
+  "contact": "Kontakt",
+  "offer": "Oferta",
+  "offerP1": "Nasze produkty sprawią, że Twoje wnętrze stanie się nie tylko nowoczesne i designerskie ale będzie bardzo przytulne.",
+  "offerP2": "Dostarczymy Ci produkty dzięki którym Twój salon, sypialnia czy pokój dziecka nabiorą ekskulzywnego charakteru. A Ty zyskasz wnętrze, które będzie wyjątkowe i niebanalne.",
+"material": "Surowiec",
+  "material-text": "Do wyrobu naszych prduktów używamy jedynie tkanin o najlepszych parametrach. Posiadających zarówno certyfikaty OEKO TEX 100, a więc są w 100% bezpieczne dla dzieci, ale również posiadają badania na kurczliwość i ścieralność. Posiadamy tkaniny w szerokiej gamie kolorystyczniej. Z takich własnie surowców wykonanmy dla Ciebie dowolną poduszkę czy ochraniacz do łóżeczka.",
+  "technology": "Technologia",
+  "technology-text": "Nasz zakład wyposażony jest w nowoczesne i wydajne maszyny. Wykonujemy cały proces produkcyjny, własnoręcznie, w zależności od efektu jaki mamy dla Ciebie uzyskać. Jesteśmy otwarci na Twoje nowe pomysły, uwagi i sugestie.",
+  "effects": "Efekty",
+  "effects-text": "Otrzymasz produkty wykonane dokładnie pod Twoje zamówienie. Dzięki temu perfekcyjnie podkreślisz indiwidualny design w swoim domu."
+
+
 }
