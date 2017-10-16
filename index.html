@@ -38,11 +38,11 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#portfolio">Galeria</a></li>
-                    <li><a href="#team">O Nas</a></li>
-                    <li><a href="#contact">Kontakt</a></li>
+                    <li><a href="#portfolio" data-localize="gallery">Galeria</a></li>
+                    <li><a href="#team" data-localize="about">O Nas</a></li>
+                    <li><a href="#contact" data-localize="contact">Kontakt</a></li>
                     <div class="language-selector-wrapper">
-              <a href="#en"><div class="language"><span>EN</span></div></a>  
+              <a href="#"><div class="language"><span>EN</span></div></a>
             </div>
                 </ul>
             </div>
@@ -56,7 +56,7 @@
 
 
 
-        <svg id="svgAnimatedLogo" version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 595.3 841.9" xml:space="preserve">
+        <svg id="svgAnimatedLogo" version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 595.3 841.9" xml:space="preserve">
 
 
 
@@ -150,27 +150,11 @@
     </div>
 
     <script>
-        new Vivus('svgAnimatedLogo', {
-            duration: 300,
-            start: 'autostart',
-            type: 'oneByOne',
-            animTimingFunction: Vivus.EASE
 
-        }, function() {
-            console.log('animatied svg!');
-            var shapes = document.querySelectorAll('.st0');
-            var letters = document.querySelectorAll('.st2');
-            for (var i = 0; i < shapes.length; i++) {
-                shapes[i].style.fill = "white";
-            }
 
-            for (var i = 0; i < letters.length; i++) {
-                letters[i].style.fill = "white";
-            }
-            //            $('#mainLogoWrapper').delay(1000).fadeOut("slow");
-            $('#mainLogoWrapper').delay(1000).slideToggle("slow");
-            $('#svgAnimatedLogo').delay(1000).fadeOut("slow");
-        });
+
+
+
 
     </script>
 
@@ -474,7 +458,9 @@
     <!-- Skompresowany plik Bootstrap JavaScript dodany lokalnie -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/svgAnim.js"></script>
     <script src="js/lightbox.min.js"></script>
+    <script src="js/jqueryLocalize.js"></script>
 
 </body>
 

@@ -28,4 +28,18 @@ $(document).ready(function() {
 });
 
 
+$(document).ready(function() {
+    $('div.language').click(function() {
+        var opts = {language: "en", pathPrefix: "lang"};
+        $("[data-localize]").localize("softCreation", opts);
+
+    });
+
+
+
+
+
+
+
+});
 

@@ -61,8 +61,8 @@ section h2 {
 
 .navbar-default .language-selector-wrapper{
     float: left;
-/*    display: inline-block;*/
-    display: none;
+   display: inline-block;
+    /*display: none;*/
 }
 
 .navbar-default .language-selector-wrapper .language{
@@ -166,6 +166,7 @@ section#slider .item div.slider-image#slider_img_4 {
     position: absolute;
     background: #0ed8d6;
     z-index: 5000;
+    display:none;
 }
 
 .svg-logo-wrapper svg {
@@ -301,6 +302,11 @@ section#slider .item div.slider-image#slider_img_4 {
     opacity: 0;
     position: relative;
     transition: all 0.5s ease-in-out;
+
+    /*Remove 1px movement issue in Chrome*/
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0);
 }
 
 #portfolio .portfolio-item-mask:hover {
