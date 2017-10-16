@@ -35,6 +35,7 @@ $(document).ready(function () {
             $("[data-localize]").localize("softCreation", opts);
             $('div.language span').html('PL');
         } else if ($('div.language span').html() === 'PL') {
+            console.log('click on PL!');
             var opts = {language: "pl", pathPrefix: "lang"};
             $("[data-localize]").localize("softCreation", opts);
             $('div.language span').html('EN');
