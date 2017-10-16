@@ -30,8 +30,18 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('div.language').click(function() {
-        var opts = {language: "en", pathPrefix: "lang"};
-        $("[data-localize]").localize("softCreation", opts);
+        if($('div.language span').html() === 'EN'){
+            var opts = {language: "en", pathPrefix: "lang"};
+            $("[data-localize]").localize("softCreation", opts);
+            $('div.language span').html('PL');
+        } else if ($('div.language span').html() === 'PL'){
+            var opts = {language: "pl", pathPrefix: "lang"};
+            $("[data-localize]").localize("softCreation", opts);
+            $('div.language span').html('EN');
+
+        }
+
+
 
     });
 
