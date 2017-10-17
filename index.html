@@ -436,15 +436,15 @@
         <div class="row">
             <form action="https://formspree.io/softcreation@onet.pl" method="POST">
                 <div class="col-sm-6">
-                    <input name="userName" type="text" placeholder="Imię">
-                    <input name="userEmail" type="email" placeholder="Email*" required>
-                    <input name="userPhone" type="text" placeholder="Telefon">
+                    <input id="contactFormName" name="userName" type="text" placeholder="Imię">
+                    <input id="contactFormEmail" name="userEmail" type="email" placeholder="Email*" required>
+                    <input id="contactFormPhone" name="userPhone" type="text" placeholder="Telefon">
                 </div>
                 <div class="col-sm-6">
-                    <textarea name="message" id="" cols="30" rows="9" placeholder="Wiadomość*" required></textarea>
+                    <textarea id="contactFormMessage" name="message" id="" cols="30" rows="9" placeholder="Wiadomość*" required></textarea>
                 </div>
                 <div class="col-sm-12 text-center">
-                    <input type="submit" value="Wyślij" class="soft-creation-button">
+                    <input id="contactFormSubmit"  type="submit" value="Wyślij" class="soft-creation-button">
                 </div>
 
             </form>

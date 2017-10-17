@@ -84,6 +84,8 @@ section h2 {
     font-weight: bold;
     font-family: 'Montserrat';
     color:#333333;
+    cursor: pointer;
+    cursor: hand;
 }
 
 

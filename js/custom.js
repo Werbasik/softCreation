@@ -28,12 +28,23 @@ $(document).ready(function () {
             var opts = {language: "en", pathPrefix: "lang"};
             $("[data-localize]").localize("softCreation", opts);
             $('div.language span').html('PL');
+            // localiztaion plugin does not cover attributes, translating form manually
+            $('#contactFormName').attr("placeholder","Name");
+            $('#contactFormPhone').attr("placeholder","Phone");
+            $('#contactFormMessage').attr("placeholder","Message");
+            $('#contactFormSubmit').attr("value","Send");
+
+
         } else if ($('div.language span').html() === 'PL') {
             console.log('click on PL!');
             var opts = {language: "pl", pathPrefix: "lang"};
             $("[data-localize]").localize("softCreation", opts);
             $('div.language span').html('EN');
-
+            // localiztaion plugin does not cover attributes, translating form manually
+            $('#contactFormName').attr("placeholder","Imię");
+            $('#contactFormPhone').attr("placeholder","Telefon");
+            $('#contactFormMessage').attr("placeholder","Wiadomość");
+            $('#contactFormSubmit').attr("value","Wyślij");
         }
 
 
