@@ -14,19 +14,13 @@ $(document).ready(function () {
         console.log('scrolling');
         checkScroll();
     });
-
-
 });
-
 
 $(document).ready(function () {
     $('#btn-offer').click(function () {
         $('#show').slideToggle('slow');
     });
-
-
 });
-
 
 $(document).ready(function () {
     $('div.language').click(function () {
