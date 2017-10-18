@@ -44,13 +44,13 @@ $(document).ready(function () {
     $('div.language').click(function () {
         if ($('div.language span').html() === 'EN') {
             console.log('klik on EN!');
-            switchLanguage('en');
+            switchLanguage('en', 'pl');
             localizaFormToEn();
 
 
         } else if ($('div.language span').html() === 'PL') {
             console.log('klik on PL!');
-            switchLanguage('pl');
+            switchLanguage('pl', 'en');
             localizeFormToPl();
         }
 
