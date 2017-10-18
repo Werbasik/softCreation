@@ -28,6 +28,7 @@ $(document).ready(function () {
 $(document).ready(function () {
 
     console.log(navigator.language);
+    console.log(navigator.languages);
 
     if(navigator.language != 'pl'){
         switchLanguage('en');
@@ -92,6 +93,7 @@ $(document).ready(function () {
 
     function switchLanguage(languageCode){
         var opts = {language: languageCode, pathPrefix: "lang"};
+        console.log('Switching language to ' + languageCodefor language detection)
         $("[data-localize]").localize("softCreation", opts);
         $('div.language span').html(languageCode.toUpperCase());
     }
