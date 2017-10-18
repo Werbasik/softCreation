@@ -93,7 +93,7 @@ $(document).ready(function () {
 
     function switchLanguage(languageCode){
         var opts = {language: languageCode, pathPrefix: "lang"};
-        console.log('Switching language to ' + languageCodefor language detection)
+        console.log('Switching language to ' + languageCode);
         $("[data-localize]").localize("softCreation", opts);
         $('div.language span').html(languageCode.toUpperCase());
     }
