@@ -31,10 +31,10 @@ $(document).ready(function () {
     console.log(navigator.languages);
 
     if(navigator.language != 'pl'){
-        switchLanguage('en');
+        switchLanguage('en', 'pl');
         localizaFormToEn();
     } else {
-        switchLanguage('pl');
+        switchLanguage('pl', 'en');
         localizeFormToPl();
     }
 
@@ -91,11 +91,11 @@ $(document).ready(function () {
     //
     // });
 
-    function switchLanguage(languageCode){
+    function switchLanguage(languageCode, codeForButton){
         var opts = {language: languageCode, pathPrefix: "lang"};
         console.log('Switching language to ' + languageCode);
         $("[data-localize]").localize("softCreation", opts);
-        $('div.language span').html(languageCode.toUpperCase());
+        $('div.language span').html(codeForButton.toUpperCase());
     }
 
     function localizeFormToPl(){
