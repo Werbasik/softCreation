@@ -1,0 +1,29 @@
+{
+  "gallery": "Galeria",
+  "about": "O nas",
+  "contact": "Kontakt",
+  "offer": "Oferta",
+  "offerP1": "Nasze produkty sprawią, że Twoje wnętrze stanie się nie tylko nowoczesne i designerskie ale będzie bardzo przytulne.",
+  "offerP2": "Dostarczymy Ci produkty dzięki którym Twój salon, sypialnia czy pokój dziecka nabiorą ekskulzywnego charakteru. A Ty zyskasz wnętrze, które będzie wyjątkowe i niebanalne.",
+  "offerButton": "Zobacz więcej",
+"material": "Surowiec",
+  "material-text": "Do wyrobu naszych prduktów używamy jedynie tkanin o najlepszych parametrach. Posiadających zarówno certyfikaty OEKO TEX 100, a więc są w 100% bezpieczne dla dzieci, ale również posiadają badania na kurczliwość i ścieralność. Posiadamy tkaniny w szerokiej gamie kolorystyczniej. Z takich własnie surowców wykonanmy dla Ciebie dowolną poduszkę czy ochraniacz do łóżeczka.",
+  "technology": "Technologia",
+  "technology-text": "Nasz zakład wyposażony jest w nowoczesne i wydajne maszyny. Wykonujemy cały proces produkcyjny, własnoręcznie, w zależności od efektu jaki mamy dla Ciebie uzyskać. Jesteśmy otwarci na Twoje nowe pomysły, uwagi i sugestie.",
+  "effects": "Efekty",
+  "effects-text": "Otrzymasz produkty wykonane dokładnie pod Twoje zamówienie. Dzięki temu perfekcyjnie podkreślisz indiwidualny design w swoim domu.",
+  "gallerySectionHeader":"Galeria",
+  "image1Caption": "Wymiary: 35cm x 45cm",
+  "image2Caption": "Różne wymiary dostępne",
+  "image3Caption": "Wymiary: 37cm x 37cm",
+  "image4Caption": "Wymiary: 23cm x 23cm, 27cm x 27cm",
+  "image5Caption": "Wymiary:45cm x 45cm",
+  "image6Caption": "Wymiary: 35cm x 45cm, 40cm x 60 cm",
+  "aboutUsSectionHeader": "O nas",
+  "aboutUsText": "Jesteśmy rodzinną firmą z tradycjami, od lat zajmujemy się tworzeniem akcesoriów, które ocieplają każde wnętrze. Tworzymy nasze produkty z pasją i dokładamy wszelkich starań aby nasz klient był zawsze zadowolony z jakości i precyzji wykonania naszych produktów.",
+  "aboutUsPosition": "Obsługa klienta",
+  "contactFormHeading": "Formularz kontaktowy",
+  "productImageGalleryHeading": "Galeria produktów Soft Creation"
+
+
+}
